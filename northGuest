@@ -1,0 +1,10 @@
+network:
+  version: 2
+  renderer: NetworkManager
+  wifis:
+    wl0:
+      dhcp4: true
+      access-points: 
+          Guest-Northwestern:
+            password: 
+            mode: infrastructure

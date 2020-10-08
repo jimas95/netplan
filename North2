@@ -1,0 +1,15 @@
+network:
+  version: 2
+  renderer: NetworkManager
+  wifis:
+    wl0:
+      dhcp4: yes
+      access-points:
+        Northwestern:
+          auth:
+            key-management: eap
+            method: ttls
+            anonymous-identity: 
+            identity: "DCU4327"
+            password: "@jimas1995@"
+            mode: infrastructure
