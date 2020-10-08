@@ -11,4 +11,4 @@ network:
             method: ttls
             anonymous-identity: 
             identity: "DCU4327"
-            password: "@jimas1995@"
+            password: "******"
